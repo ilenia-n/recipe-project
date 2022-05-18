@@ -1,3 +1,51 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Playfair Display', serif; */
 
+:root {
+--color-one: #1C658C;
+--color-two: #398AB9;
+--color-three: #D8D2CB;
+--color-four: #EEEEEE;
+--heading-font-family: 'Playfair Display', serif;
+--default-font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    font-family: var(--default-font-family);
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font-family);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.hero {
+    background-color: var(--color-one);
+    color: var(--color-four);
+    padding: 50px;
+}
+
+.hero p{
+    padding: 30px 0;
+}
+
+.btn-branding {
+    background-color: var(--color-four);
+    color: var(--color-one);
+}
+
+.btn-branding:hover{
+    color: var(--color-one);
+}
+
+.img-hero{
+    width: 75%;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid red;
+
+}
