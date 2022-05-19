@@ -11,13 +11,15 @@ body{
     color: #272142;
 }
 
-.hero {
-text-align: center;
-font-style: normal;
-font-weight: 700px;
-color: white;
+h2{
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 30px;
 }
 
+
+
+/* Hero */
 
 .hero-img{
   background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url(/images/banner.png); 
@@ -28,6 +30,19 @@ color: white;
   max-width: 100%;
 }
 
+.hero {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700px;
+    color: white;
+    }
+
+.hero h1{
+    font-size: 72px;
+    line-height: 98px;
+    padding-top: 47px;
+    }
+
 .hero p{
     font-size: 24px;
     line-height: 35px;
@@ -35,8 +50,36 @@ color: white;
     padding-right: 20px;
 }
 
-h1{
-    font-size: 72px;
-    line-height: 98px;
-    padding-top: 47px;
+/* Homepage content */
+
+
+
+
+@media (max-width:768px) {
+    .hero h1{
+        font-size: 45px;
+    }
+
+    .hero p{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .img-hp{
+        max-width: 380px;
+        display: block;
+        margin:auto;
+    }
+
+    .hero-img{
+        background-color: #272142;
+        background-image: none;
+        opacity: 80%;
+    }
+
 }
