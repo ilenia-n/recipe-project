@@ -1,8 +1,14 @@
 /* font-family: 'Nunito', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
+:root{
+    --secondary-color: #662EED;
+    --secondary-color: #F9F7FE;
+}
+
 body{
     font-family: 'Nunito', sans-serif;
+    color: #272142;
 }
 
 .hero {
