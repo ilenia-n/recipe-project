@@ -1,3 +1,36 @@
 /* font-family: 'Nunito', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.hero {
+text-align: center;
+font-style: normal;
+font-weight: 700px;
+color: white;
+}
+
+
+.hero-img{
+  background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url(/images/banner.png); 
+  margin: 135px 0 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+}
+
+.hero p{
+    font-size: 24px;
+    line-height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1{
+    font-size: 72px;
+    line-height: 98px;
+    padding-top: 47px;
+}
