@@ -2,8 +2,9 @@
 font-family: 'Roboto', sans-serif; */
 
 :root{
-    --secondary-color: #662EED;
-    --secondary-color: #F9F7FE;
+    --color-one: #662EED;
+    --color-two: #F9F7FE;
+    --color-three: #F65282;
 }
 
 body{
@@ -11,10 +12,21 @@ body{
     color: #272142;
 }
 
+h1{
+    font-size: 72px;
+    line-height: 98px;
+    padding-top: 47px;
+    text-align: center;
+    }
+
 h2{
     font-size: 28px;
     line-height: 38px;
     margin-bottom: 30px;
+}
+
+h3{
+    font-size: 64px;
 }
 
 
@@ -37,11 +49,6 @@ h2{
     color: white;
     }
 
-.hero h1{
-    font-size: 72px;
-    line-height: 98px;
-    padding-top: 47px;
-    }
 
 .hero p{
     font-size: 24px;
@@ -50,13 +57,33 @@ h2{
     padding-right: 20px;
 }
 
-/* Homepage content */
+/* Social Media */
+
+i{
+    color: #272142;
+    margin: 15px;
+}
+
+/* About Me Section */
+
+.h1-cloud {
+    margin: 20px 0 100px 0;
+}
+
+
+.about-section p{
+    margin: 50px 0 35px 0;
+}
+
+.about-section-content{
+    margin: 30px;
+}
 
 
 
 
 @media (max-width:768px) {
-    .hero h1{
+    h1{
         font-size: 45px;
     }
 
@@ -70,6 +97,10 @@ h2{
         margin-bottom: 30px;
     }
 
+    h3{
+        font-size: 35px;
+    }
+
     .img-hp{
         max-width: 380px;
         display: block;
@@ -80,6 +111,10 @@ h2{
         background-color: #272142;
         background-image: none;
         opacity: 80%;
+    }
+
+    .about-section-content{
+        text-align: center;
     }
 
 }
