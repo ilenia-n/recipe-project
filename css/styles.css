@@ -47,15 +47,32 @@ h6{
     font-weight: bold;
 }
 
-
-ul{
-    list-style-type: none;
-    padding: 0;
+nav{
+    margin-top: 30px;
 }
 
-li{
-    border-bottom: 1px dashed #67D5D2;
-    padding: 15px 15px 15px 0;
+.navigation ul{
+margin: 0;
+padding: 0;
+}
+
+.nav-links{
+list-style-type: none;
+margin-left: 20px;
+display: inline;
+line-height: 25px;
+}
+
+.active{
+    color: var(--color-one);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--color-one);
 }
 
 p{
@@ -71,13 +88,20 @@ a:hover{
     color: var(--color-one);
 }
 
+/* Header navigation bar  */
+
+.logo{
+    max-height: 20px;
+}
+
+
 
 
 /* Hero */
 
 .hero-img{
   background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url(/images/banner.png); 
-  margin: 135px 0 0 0;
+  margin: 85px 0 0 0;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -161,10 +185,22 @@ i{
     padding: 40px 0 40px 0;
 }
 
+.recipe-content ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipe-content li{
+    border-bottom: 1px dashed #67D5D2;
+    padding: 15px 15px 15px 0;
+}
+
 .recipe-img{
     display: block;
     margin: auto;
 }
+
+
 
 
 /* Contact Page  */
@@ -180,6 +216,10 @@ i{
 @media (max-width:768px) {
     h1{
         font-size: 45px;
+    }
+
+    .logo{
+        max-height: 12px;
     }
 
     .hero p{
@@ -201,13 +241,17 @@ i{
     }
 
     li{
+        font-size: 15px;
+    }
+
+    .recipe-content li{
         border-bottom: none;
         list-style-type: disc;
         margin-left: 15px;
     }
 
     .thumbnail{
-        max-width: 380px;
+        max-width: 360px;
         display: block;
         margin:auto;
     }
