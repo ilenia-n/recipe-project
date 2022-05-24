@@ -58,6 +58,11 @@ li{
     padding: 15px 15px 15px 0;
 }
 
+p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
 a{
     color: var(--font-color);
 }
@@ -116,6 +121,22 @@ i{
 
 .about-section-content{
     margin: 30px;
+}
+
+.favourite-recipe{
+    padding: 60px 30px 60px 0;
+}
+
+.favourite-recipe h2{
+    font-size: 24px;
+}
+
+.favourite-recipe p{
+    font-size: 16px;
+}
+
+.mid-section{
+    margin-top: 100px;
 }
 
 
@@ -185,7 +206,7 @@ i{
         margin-left: 15px;
     }
 
-    .img-hp{
+    .thumbnail{
         max-width: 380px;
         display: block;
         margin:auto;
@@ -198,6 +219,10 @@ i{
     }
 
     .about-section-content{
+        text-align: center;
+    }
+
+    .favourite-recipe{
         text-align: center;
     }
 
