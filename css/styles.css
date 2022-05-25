@@ -123,11 +123,30 @@ a:hover{
     padding-right: 20px;
 }
 
+
+/* Footer  */
+
+footer {
+    background-color: var(--color-two);
+}
+
+.footer-content {
+    padding: 38px 140px;
+}
+
+footer p{
+    font-size: 16px;
+    font-family:'Roboto', sans-serif;
+}
+
+
 /* Social Media */
 
 i{
     color: var(--font-color);
-    margin: 15px;
+    margin:0 15px;
+    color: var(--font-color);
+    font-size: 16px;
 }
 
 
@@ -272,6 +291,14 @@ i{
 
     .step-by-step{
         padding: 20px;
+    }
+
+    .footer-content {
+        padding: 38px 40px;
+    }
+
+    footer p{
+        font-size: 12px;
     }
 
 }
