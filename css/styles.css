@@ -131,7 +131,7 @@ footer {
 }
 
 .footer-content {
-    padding: 38px 140px;
+    padding: 38px 90px;
 }
 
 footer p{
@@ -212,6 +212,7 @@ i{
 .recipe-content li{
     border-bottom: 1px dashed #67D5D2;
     padding: 15px 15px 15px 0;
+    font-size: 18px;
 }
 
 .recipe-img{
@@ -238,7 +239,7 @@ i{
     }
 
     .logo{
-        max-height: 12px;
+        max-height: 11px;
     }
 
     .hero p{
@@ -260,7 +261,7 @@ i{
     }
 
     li{
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .recipe-content li{
@@ -298,7 +299,11 @@ i{
     }
 
     footer p{
-        font-size: 12px;
+        font-size: 9px;
+    }
+
+    footer i{
+        margin: 0 5px;
     }
 
 }
