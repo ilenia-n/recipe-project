@@ -221,6 +221,26 @@ i{
     margin: auto;
 }
 
+.branding {
+    color: var(--color-one);
+}
+
+.branding:hover{
+    background-color: var(--color-two);
+    color: var(--color-one);
+}
+
+.branding-bg{
+    background-color: var(--color-one);
+    color: white;
+}
+
+.branding-bg:hover{
+    background-color: var(--color-one);
+    color: white;
+}
+
+
 
 
 
