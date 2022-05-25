@@ -51,12 +51,17 @@ nav{
     margin-top: 30px;
 }
 
-.navigation ul{
+.nav-menu{
+    background-color: white;
+    padding: 30px;
+}
+
+.nav-menu ul{
 margin: 0;
 padding: 0;
 }
 
-.nav-links{
+.nav-menu li{
 list-style-type: none;
 margin-left: 20px;
 display: inline;
@@ -133,12 +138,20 @@ footer {
 }
 
 .footer-content {
-    padding: 38px 90px;
+    padding: 51px 0 38px 0;
 }
 
 footer p{
     font-size: 16px;
     font-family:'Roboto', sans-serif;
+}
+
+.github-link{
+    color: #F65282;
+}
+
+.github-link:hover{
+    color: var(--color-one)
 }
 
 
@@ -292,6 +305,10 @@ i:hover{
         font-size: 12px;
     }
 
+    .nav-menu li {
+        font-size: 13px;
+    }
+
     .recipe-content li{
         border-bottom: none;
         list-style-type: disc;
@@ -323,7 +340,7 @@ i:hover{
     }
 
     .footer-content {
-        padding: 38px 40px;
+        padding: 38px 20px;
     }
 
     footer p{
