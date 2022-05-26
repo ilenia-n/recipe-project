@@ -295,6 +295,9 @@ i:hover{
     margin-bottom: 500px;
 }
 
+.contact-content i:hover{
+color: var(--font-color);
+}
 
 
 
