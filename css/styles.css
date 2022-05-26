@@ -20,36 +20,58 @@ h1{
     }
 
 h2{
-    font-size: 28px;
-    line-height: 38px;
-    margin-bottom: 30px;
+    font-size: 64px;
+    line-height: 87px;
 }
 
 h3{
-    font-size: 64px;
-}
-
-h4{
     font-size: 36px;
     text-align: center;
 }
 
-h5{
-    font-size: 18px;
-    color: #F65282;
-    font-weight: bold;
-    margin-bottom: 15px;
+h4{
+    font-size: 24px;
+    line-height: 33px;
 }
 
-h6{
-    text-transform: uppercase;
-    color: var(--color-one);
-    font-weight: bold;
+p{
+    font-size: 18px;
+    line-height: 30px;
 }
 
 nav{
     margin-top: 30px;
 }
+
+
+a{
+    color: var(--font-color);
+    text-decoration: none;
+    transition: all 100ms ease-in-out;
+}
+
+a:hover{
+    color: var(--color-one);
+}
+
+address{
+    text-transform: uppercase;
+    color: var(--color-one);
+    font-weight: bold;
+}
+
+
+
+
+/* Header navigation bar  */
+
+.logo{
+    max-height: 20px;
+}
+
+
+/* Navigation  */
+
 
 .nav-menu{
     background-color: white;
@@ -73,38 +95,9 @@ font-size: 20px;
     color: var(--color-one);
 }
 
-a{
-    text-decoration: none;
-    transition: all 100ms ease-in-out;
-}
-
-a:hover{
-    color: var(--color-one);
-}
-
-p{
-    font-size: 18px;
-    line-height: 30px;
-}
-
-a{
-    color: var(--font-color);
-}
-
-a:hover{
-    color: var(--color-one);
-}
-
-/* Header navigation bar  */
-
-.logo{
-    max-height: 20px;
-}
 
 
-
-
-/* Hero */
+/* Hero & Homepage */
 
 .hero-img{
   background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url(/images/banner.png); 
@@ -123,13 +116,23 @@ a:hover{
     }
 
 
-.hero p{
+.hero h2{
     font-size: 24px;
     line-height: 35px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
+.homepage-content h3{
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.homepage-content a:hover{
+    color: var(--font-color);
+}
 
 /* Footer  */
 
@@ -192,16 +195,13 @@ i:hover{
     padding: 60px 30px 60px 0;
 }
 
-.favourite-recipe h2{
-    font-size: 24px;
-}
-
 .favourite-recipe p{
     font-size: 16px;
+    line-height: 30px;
 }
 
 .mid-section{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 
@@ -210,6 +210,9 @@ i:hover{
 .dash{
     border-bottom: 1px dashed #67D5D2;
     padding-bottom: 20px;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: left;
 }
 
 .step-by-step {
@@ -220,6 +223,19 @@ i:hover{
     max-width: 760px;
     display: block;
     margin: auto;
+}
+
+.recipe-card h2{
+    font-size: 36px;
+    text-align: center;
+    line-height: 49px;
+}
+
+.recipe-card h4{
+    font-size: 18px;
+    color: #F65282;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .recipe-content{
@@ -288,18 +304,23 @@ i:hover{
         max-height: 11px;
     }
 
-    .hero p{
+    .hero h2{
         font-size: 20px;
     }
 
-    h2{
+    /* .homepage-content h3{
         font-size: 22px;
+    } */
+    
+
+    h2{
+        font-size: 39px;
         text-align: center;
-        margin-bottom: 30px;
+        padding: 20px 0 0 0;
     }
 
     h3{
-        font-size: 35px;
+        font-size: 32px;
     }
 
     h4{
@@ -310,7 +331,7 @@ i:hover{
         font-size: 12px;
     }
 
-    .nav-menu li {
+    .nav-menu li{
         font-size: 13px;
     }
 
@@ -319,6 +340,7 @@ i:hover{
         list-style-type: disc;
         margin-left: 15px;
     }
+
 
     .thumbnail{
         max-width: 360px;
@@ -332,11 +354,7 @@ i:hover{
         opacity: 80%;
     }
 
-    .about-section-content{
-        text-align: center;
-    }
-
-    .favourite-recipe{
+    .about-section-content, .favourite-recipe{
         text-align: center;
     }
 
@@ -344,7 +362,7 @@ i:hover{
         padding: 20px;
     }
 
-    .footer-content {
+    .footer-content{
         padding: 38px 20px;
     }
 
