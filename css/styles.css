@@ -12,11 +12,14 @@ body{
     color: var(--font-color);
 }
 
+h1, h3 {
+    text-align: center;
+}
+
 h1{
     font-size: 72px;
     line-height: 98px;
     padding-top: 47px;
-    text-align: center;
     }
 
 h2{
@@ -26,7 +29,7 @@ h2{
 
 h3{
     font-size: 36px;
-    text-align: center;
+    line-height: 49px;
 }
 
 h4{
@@ -76,6 +79,10 @@ address{
 .nav-menu{
     background-color: white;
     padding: 30px;
+    font-weight: 700;
+    color: var(--font-color);
+    line-height: 25px;
+    font-size: 20px;
 }
 
 .nav-menu ul{
@@ -87,8 +94,6 @@ padding: 0;
 list-style-type: none;
 margin-left: 20px;
 display: inline;
-line-height: 25px;
-font-size: 20px;
 }
 
 .active{
@@ -151,6 +156,7 @@ footer p{
 
 .github-link{
     color: #F65282;
+    transition: all 100ms ease-in-out;
 }
 
 .github-link:hover{
@@ -171,6 +177,10 @@ i{
 
 i:hover{
     color: var(--color-one);
+}
+
+.social p{
+    display: inline;
 }
 
 
@@ -219,7 +229,7 @@ i:hover{
     text-align: left;
 }
 
-.step-by-step {
+.step-by-step{
     padding: 15px 15px 15px 0;
 }
 
@@ -260,7 +270,12 @@ i:hover{
 .recipe-img{
     display: block;
     margin: auto;
+    width: 90%;
 }
+
+
+
+/* Pagination  */
 
 .branding {
     color: var(--color-one);
@@ -280,7 +295,6 @@ i:hover{
     background-color: var(--color-one);
     color: white;
 }
-
 
 
 
@@ -307,6 +321,24 @@ color: var(--font-color);
         font-size: 45px;
     }
 
+    h2{
+        font-size: 39px;
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+
+    h3{
+        font-size: 39px;
+    }
+
+    h4{
+        font-size: 28px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
     .logo{
         max-height: 11px;
     }
@@ -315,54 +347,38 @@ color: var(--font-color);
         font-size: 20px;
     }
 
-   
-    h2{
-        font-size: 39px;
-        text-align: center;
-        padding: 20px 0 0 0;
+    .favourite-recipe p{
+        font-size: 14px;
     }
 
-    h3{
-        font-size: 32px;
+     .step-by-step{
+        padding: 20px;
     }
 
-    h4{
-        font-size: 28px;
-    }
-
-    li{
-        font-size: 12px;
-    }
-
-    .nav-menu li{
+    .nav-menu{
         font-size: 13px;
     }
 
-    .recipe-content li{
-        border-bottom: none;
-        list-style-type: disc;
-        margin-left: 15px;
-    }
-
-
+   
     .thumbnail{
         max-width: 360px;
         display: block;
         margin:auto;
     }
 
-    .hero-img{
-        background-color: var(--font-color);
-        background-image: none;
-        opacity: 80%;
-    }
-
     .about-section-content, .favourite-recipe{
         text-align: center;
     }
 
-    .step-by-step{
-        padding: 20px;
+    .dash{
+       margin-left: 15px;
+    }
+
+    .recipe-content li{
+        border-bottom: none;
+        list-style-type: disc;
+        margin-left: 15px;
+        font-size: 14px;
     }
 
     .footer-content{
@@ -376,5 +392,15 @@ color: var(--font-color);
     footer i{
         margin: 0 5px;
     }
+
+
+
+    /* To remove and leave the normal background */
+
+        /* .hero-img{
+        background-color: var(--font-color);
+        background-image: none;
+        opacity: 80%;
+    } */
 
 }
