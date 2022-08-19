@@ -155,7 +155,7 @@ display: inline;
 }
 
 .homepage-content a:hover{
-    color: var(--font-color);
+    color: var(--color-one);
 }
 
 /* Footer  */
